@@ -38,6 +38,8 @@ com.polysolve
     └── PolySolveController.java  mediates between View and Model
 ```
 
+### Design Principles
+
 - **Model** (`model/`) has zero Swing imports — it is pure, testable math logic.
 - **View** (`view/`) has zero math logic — it only builds UI and reads/writes text fields.
 - **Controller** (`controller/`) is the only class both sides depend on, keeping the two layers decoupled.
@@ -79,13 +81,34 @@ java com.polysolve.Main
 
 ---
 
-## Project info
+## Authors
 
-- **Language**: Java 17, Swing (no external GUI libraries)
-- **Build tool**: Maven
-- **Author**: Siddharth Chandra and Aman Raj, BTech CSE (LPU), reg. no. 12411518 and 12416152.
+- **Siddharth Chandra** (Reg. No. 12411518)
+- **Aman Raj** (Reg. No. 12416152)
+
+**B.Tech Computer Science & Engineering**  
+Lovely Professional University
 
 ---
+
+
+
+## Project Structure
+
+```text
+POLYSOLVE
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   └── resources/
+│   └── test/
+├── docs/
+│   └── UML_Class_Diagram.png
+├── pom.xml
+└── README.md
+
+```
+
 
 ## License
 
