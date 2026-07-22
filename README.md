@@ -50,10 +50,13 @@ See `docs/UML_Class_Diagram.png` for the full class relationship diagram.
 
 ## Running the project
 
-### Option 1: IntelliJ IDEA (recommended)
-1. Open IntelliJ → **File → Open** → select the `POLYSOLVE` folder.
-2. IntelliJ detects `pom.xml` automatically and imports it as a Maven project.
-3. Run `Main.java` (right-click → **Run 'Main.main()'**).
+### Option 1: Visual Studio Code (Recommended)
+
+1. Open **Visual Studio Code**.
+2. Select **File → Open Folder** and choose the `POLYSOLVE` directory.
+3. Ensure the **Extension Pack for Java** is installed. VS Code will automatically detect the `pom.xml` file and import the project as a Maven project.
+4. Open `Main.java` and click **Run** (or right-click → **Run Java**).
+
 
 ### Option 2: Command line (with Maven)
 ```bash
