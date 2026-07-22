@@ -1,6 +1,6 @@
 # POLYSOLVE
 
-Polynomial Calculator & Calculus Suite** — a Java Swing desktop application built with a clean MVC (Model-View-Controller) architecture.
+Polynomial & calculas Calculator — a Java Swing desktop application built with a clean MVC (Model-View-Controller) architecture.
 
 POLYSOLVE lets you type polynomials in natural form (e.g. `3x^2+2x+1`) and perform algebra (add, subtract, multiply) and calculus (evaluate, differentiate, integrate, definite integral) on them through a simple two-tab GUI.
 
@@ -8,8 +8,8 @@ POLYSOLVE lets you type polynomials in natural form (e.g. `3x^2+2x+1`) and perfo
 
 ## Features
 
-- **Algebra**: add, subtract, multiply two polynomials
-- **Calculus**:
+- Algebra:- add, subtract, multiply two polynomials
+- Calculus:-
   - Evaluate a polynomial at a given `x`
   - Differentiate (`d/dx`)
   - Indefinite integral (with a custom constant `C`)
